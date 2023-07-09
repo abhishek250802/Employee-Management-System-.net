@@ -1,0 +1,16 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+
+  "ConnectionStrings": {
+    "DefaultSQLConnection": "Server=KELLGGNLPTP1468\\SQLEXPRESS;Database=Employee_Management;Trusted_Connection=True;MultipleActiveResultSets=True;TrustServerCertificate=True"
+  },
+  "ApiSettings": {
+    "Secret": "AUTHENTICATION AND AUTHORIZATION SECRET KEY USED FOR SECURING API"
+  }
+}
