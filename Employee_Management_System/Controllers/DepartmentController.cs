@@ -25,6 +25,7 @@ namespace EmployeeManagement.Controllers
 
 		}
 		[HttpGet]
+		[Authorize]
 		[ProducesResponseType(StatusCodes.Status200OK)]
 		public async Task<ActionResult<ApiResponse>> GetDepartments()
 		{
