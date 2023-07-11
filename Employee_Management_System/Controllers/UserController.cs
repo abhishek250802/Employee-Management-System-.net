@@ -13,8 +13,8 @@ using System.Net;
 
 namespace EmployeeManagement.Controllers
 {
-  //  [Route("api/User")]
-	    [Route("api/[Controller]")]
+    [Route("api/User")]
+
 
 	[ApiController]
 	public class UserController : ControllerBase
